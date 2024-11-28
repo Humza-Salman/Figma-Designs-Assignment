@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Roboto-bold";
+  src: url(../Assect/Roboto/Roboto-Bold.ttf);
+}
+
+body {
+  font-family: "Roboto-bold";
+}
+
+@media only screen and (max-width: 1024px) {
+  .inside-para {
+    top: 2.5rem;
+  }
+
+  .main {
+    grid-template-columns: 1fr !important;
+    place-content: center !important;
+  }
+
+  .first{
+      width: 100% !important;
+      height: 100% !important;
+      margin-top: 30px !important;
+      text-align: center !important;
+  }
+
+  .second-one{
+    margin: auto;
+  }
+
+  .inside-para{
+    top: 15rem;
+  }
+
+  .second{
+    margin-top: 30px !important;
+    width: 100% !important;
+  }
+
+  .first-image{
+    margin: auto !important;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 767px){
+    .second{
+        grid-template-columns: 1fr !important;
+    }
+
+    .one img{
+        margin: auto !important;
+    }
+    .two img{
+        margin: auto !important;
+    }
+    .inside-para{
+        width: 100% !important;
+        margin: auto !important;
+    }
+}

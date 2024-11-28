@@ -9,9 +9,53 @@
 }
 
 body{
-    background-image: url();
+    background-image: url(../Assect/images/Design-four/image\ 149.png);
+    background-position: top;
     height: 100vh;
     width: 100vw;
-    font-family: 'Roboto-bold' ;
+    font-family: 'Roboto-bold';
 }
 
+.my-btn{
+    background-image: linear-gradient(to right, #DA22FF, #9733EE);
+}
+
+#icons {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 15px;
+}
+
+#icons a {
+    display: flex;
+    height: 25px;
+}
+
+#icons a:hover{
+    transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .mydiv{
+        width: 100% !important;
+        margin-left: 1.5rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .my-container{
+        height: 100% !important;
+        width: 100% !important;
+        place-content: start !important;
+        margin-top: 1.5rem;
+    }
+
+    .my-div p{
+        font-size: .8rem;
+    }
+
+    
+}
