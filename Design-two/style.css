@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url(../Assect/Roboto/Roboto-Bold.ttf);
+}
+
+body{
+    background-image: url(../Assect/images/Design-two/image\ 33.jpg);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto-bold' ;
+}
+
+.main{
+    height: 100%;
+    width: 40%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.heading{
+    background-image: linear-gradient(to right, #FC00FF, #00DBDE);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+    .my-button{
+        display: none;
+    }
+    
+    .main{
+        height: 100%;
+        width: 80%;
+    }
+}

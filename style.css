@@ -1,0 +1,35 @@
+** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto-bold";
+  src: url(Assect/Roboto/Roboto-Bold.ttf);
+}
+
+body {
+  background: linear-gradient(to right,#acb6e5,#74ebd5);
+  font-family: "Roboto-bold";
+  height: 100vh;
+  width: 100vw;
+}
+
+.heading{
+  background: linear-gradient(to top left,#ff75c3,#ffa647,#ffe83f,#9fff5b,#70e2ff,#cd93ff);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+
+@media only screen and (max-width: 550px){
+  .heading{
+    font-size: 2.6rem !important;
+  }
+
+  #main{
+    margin-right:15px !important;
+  }
+}

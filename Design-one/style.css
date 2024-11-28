@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url(Assect/Roboto/Roboto-Bold.ttf);
+}
+
+
+.design-one-header {
+    background: rgb(168, 160, 168);
+    background: linear-gradient(72deg, rgba(168, 160, 168, 1) 41%, rgba(227, 232, 229, 1) 88%);
+}
+
+.my-navbar {
+    /* background-color: rgb(191, 182, 182) !important; */
+    height: 10vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto-bold';
+}
+
+.my-navbar>.logo {
+    height: 30px;
+}
+
+
+
+.list {
+    height: 4vh;
+    place-content: center;
+    text-align: center;
+}
+
+.list ul {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+
+
+.my-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    gap: 30px;
+}
+
+
+
+
+.my-ul>.button {
+    background-image: linear-gradient(to right, #DA22FF, #9733EE);
+    padding: 7px;
+    border-radius: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-ul>.button,
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* my container */
+
+
+
+.my-container {
+    /* background-color: white; */
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.picture-coloum {
+    height: 90vh;
+    width: 50%;
+    position: relative;
+}
+
+.first-image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.sec-image {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    object-fit: contain;
+}
+
+.text-coloum {
+    /* background-color: aqua; */
+    height: 90vh;
+    width: 50%;
+    place-content: center;
+    font-family: 'Roboto-bold';
+}
+
+.text-coloum>div {
+    /* background-color: #DA22FF; */
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    place-content: center;
+}
+
+.first-para {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.Remotely {
+    color: purple;
+}
+
+.figma {
+    color: rgb(221, 149, 17);
+}
+
+.sec-para {
+    color: rgb(46, 44, 44);
+}
+
+.input-btn {
+    margin-top: 30px;
+    height: 50px;
+    width: 90%;
+    place-content: center;
+    background-color: white;
+    border-radius: 100px;
+    border: .5px solid white;
+    box-shadow: 0 0 15px 2px #fff;
+}
+
+.input-btn>div {
+    display: flex;
+}
+
+.my-input {
+    border: none !important;
+}
+
+.my-input>label {
+    margin-top: 5px;
+}
+
+.button {
+    background-image: linear-gradient(to right, #DA22FF, #9733EE);
+    padding: 11px;
+    border-radius: 80px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .sec-image {
+        height: 300px;
+    }
+
+    .input-btn {
+        height: 50px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .sec-image {
+        height: 250px;
+    }
+
+    .input-btn {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .my-ul>.button {
+        display: none;
+    }
+
+    .my-container {
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .text-coloum {
+        margin-top: 20px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .picture-coloum {
+        height: 90vh;
+        width: 100%;
+    }
+    
+    .sec-image {
+        top: 20%;
+        left: 28%;
+        height: 300px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+    .my-navbar {
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-image {
+        top: 25%;
+        left: 10%;
+        height: 260px;
+    }
+
+
+}
+
+@media only screen and (max-width: 425px) {
+    .my-navbar>.my-ul {
+        place-content: center;
+        font-size: .8rem;
+    }
+
+    .sec-image {
+        top: 25%;
+        left: 10%;
+        height: 260px;
+    }
+
+}
+
+
+@media only screen and (max-width: 374px) {
+    .after-320 {
+        display: none;
+    }
+
+    .sec-image {
+        top: 25%;
+        left: 0%;
+        height: 260px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Design one */

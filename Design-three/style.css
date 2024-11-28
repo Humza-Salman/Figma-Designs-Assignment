@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url(../Assect/Roboto/Roboto-Bold.ttf);
+}
+
+body{
+    background-image: url(../Assect/images/Design-three/image\ 122.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto-bold';
+}
+
+
+.my-navbar{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.my-btn{
+    background-image: linear-gradient(to right, #DA22FF, #9733EE);
+}
+
+
+
+@media only screen and (max-width: 375px){
+    .my-btn-1{
+        display: none;
+    }
+    .my-btn{
+        display: none;
+    }
+}
